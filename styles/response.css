@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    section.hero {
+        flex-direction: column-reverse;
+    }
+
+    section.hero h1 {
+        font-size: 2.5rem;
+        max-width: 100%;
+    }
+
+    section.hero h1 div {
+        height: 3rem;
+    }
+
+    section.hero .buttons {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    section.hero .buttons .button.buy {
+        padding: 1rem 2rem;
+    }
+
+    header.top {
+        padding: 1rem;
+    }
+
+    header.top img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    section.gallery .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    section.gallery figure {
+        width: 100%;
+        height: 20rem;
+    }
+
+    section.gallery figure img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: start;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    footer nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer .social-links {
+        justify-content: start;
+    }
+}
